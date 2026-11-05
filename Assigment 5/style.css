@@ -1,0 +1,234 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    color: #123b72;
+    font-size: 27px;
+}
+
+.logo span {
+    color: #ff9d00;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff9d00;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 520px;
+    background: linear-gradient(rgba(10,35,70,0.75), rgba(10,35,70,0.75)),
+    url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 8%;
+}
+
+.hero-content {
+    max-width: 700px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h3 {
+    color: #ffb52e;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff9d00;
+    color: white;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #123b72;
+}
+
+/* Common Section Styling */
+section:not(.hero) {
+    padding: 65px 8%;
+}
+
+section h2 {
+    color: #123b72;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    text-align: center;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content p {
+    line-height: 1.8;
+    color: #666;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features p {
+    margin: 10px 0;
+    color: #123b72;
+    font-weight: bold;
+}
+
+/* Courses Section */
+.courses {
+    background-color: #f4f7fc;
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 30px 22px;
+    border-radius: 10px;
+    flex: 1 1 210px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+}
+
+.course-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    color: #123b72;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.course-card a {
+    color: #ff9d00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Why Choose Us */
+.why-us {
+    text-align: center;
+}
+
+.why-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.why-card {
+    background-color: #123b72;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 150px;
+}
+
+.why-card h3 {
+    font-size: 35px;
+    color: #ffb52e;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    color: white;
+    line-height: 1.6;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Store - Flexbox Assignment</title>
+
+    <!-- CSS file connected -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. MENU BAR -->
+    <nav class="navbar">
+        <h2>Campus Store</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#login">Login</a>
+        </div>
+    </nav>
+
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero" id="home">
+        <div>
+            <h1>Welcome to Campus Store</h1>
+            <p>Everything you need for your college life in one place.</p>
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+    </section>
+
+
+    <!-- 3. MENU SECTION -->
+    <section class="menu-section" id="menu">
+        <h1>Our Menu</h1>
+        <p>Explore our simple website menu.</p>
+
+        <div class="menu-items">
+            <div class="menu-card">Home</div>
+            <div class="menu-card">About Us</div>
+            <div class="menu-card">Products</div>
+            <div class="menu-card">Contact</div>
+        </div>
+    </section>
+
+
+    <!-- 4. PRODUCTS SECTION -->
+    <section class="products-section" id="products">
+        <h1>Our Products</h1>
+        <p>Choose your favourite college essentials.</p>
+
+        <!-- Flex-wrap displays cards in multiple rows -->
+        <div class="products">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones">
+                <h3>Headphones</h3>
+                <p>₹999</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+                <h3>Watch</h3>
+                <p>₹799</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Shoes">
+                <h3>Sports Shoes</h3>
+                <p>₹1499</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500" alt="Camera">
+                <h3>Camera</h3>
+                <p>₹2999</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>₹39999</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=500" alt="Mouse">
+                <h3>Mouse</h3>
+                <p>₹499</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500" alt="Headset">
+                <h3>Headset</h3>
+                <p>₹1299</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500" alt="Perfume">
+                <h3>Perfume</h3>
+                <p>₹699</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- 5. LOGIN FORM -->
+    <section class="login-section" id="login">
+        <div class="login-box">
+            <h1>Login</h1>
+            <p>Welcome back to Campus Store!</p>
+
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password">
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- 6. FOOTER -->
+    <footer>
+        <p>© 2026 Campus Store | Made for Students</p>
+        <p>Contact: campusstore@gmail.com</p>
+    </footer>
+
+</body>
+</html>

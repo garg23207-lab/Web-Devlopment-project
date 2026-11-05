@@ -1,0 +1,134 @@
+
+/* Root Colors */
+:root {
+    --dark: #173f42;
+    --green: #14777a;
+    --light: #edf3f6;
+    --hero: #dfede5;
+    --white: white;
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 30px 40px;
+    background-color: var(--light);
+    color: #19384d;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: var(--dark);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--hero);
+    padding: 40px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cbd9dc;
+}
+
+.hero h4 {
+    color: var(--green);
+}
+
+.hero h1 {
+    font-size: 35px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: var(--green);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--dark);
+}
+
+/* Profile */
+.profile {
+    background-color: #6d9690;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+/* All Sections */
+section {
+    padding: 20px 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid #cbd9dc;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    height: 100px;
+    background-color: #dcebe3;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
